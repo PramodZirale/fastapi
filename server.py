@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from enum import Enum
 
+
 class AvaialbleCuisine(str, Enum):
     italian = "italian"
     mexican = "mexican"
